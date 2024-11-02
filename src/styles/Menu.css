@@ -1,0 +1,35 @@
+.menu-line {
+    display: flex;
+    align-items: center;
+    gap: 72%;
+    color: hsl(0, 0%, 100%);
+}
+
+.menu-line ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: small;
+    cursor: pointer;
+}
+
+#header-title {
+    margin-left: 30px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#contact-button {
+    font-family: "Barlow", serif;
+    font-weight: 900;
+    font-style: normal;
+    color: hsl(212, 27%, 19%);
+    background: hsl(0, 0%, 100%);
+    padding: 10px 15px;
+    border-radius: 30px;
+}

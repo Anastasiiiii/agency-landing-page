@@ -1,0 +1,10 @@
+.text-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    padding-top: 50%; /* Задає висоту, яка дорівнює ширині */
+    position: relative;
+    margin-left: 0;
+    overflow: hidden;
+}
