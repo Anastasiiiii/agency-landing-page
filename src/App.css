@@ -1,4 +1,21 @@
-.down-two-images{
+/* Для розміщення `span` блоків один під одним */
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-two-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-two-images {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Для розміщення `TextBox` і `Image` поруч усередині `span` */
+.down-two-images {
   display: flex;
   align-items: center;
   gap: 0;
