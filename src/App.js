@@ -4,6 +4,8 @@ import Header from './components/Header';
 import Image from './components/Image';
 import ClientCase from './components/ClientCase';
 import TextBox from './components/TextBox';
+import ImgLine from './components/ImgLine';
+import Footer from './components/Footer';
 import bgImage from "./images/desktop/image-transform.jpg";
 import bgImage2 from "./images/desktop/image-stand-out.jpg";
 import bgImage3 from "./images/desktop/image-graphic-design.jpg";
@@ -43,6 +45,8 @@ function App() {
         <Image bgImage={bgImage4} header={header2} text={passage2} textColor={textColor2} />
       </span>
       <ClientCase />
+      <ImgLine />
+      <Footer />
     </div>
   );
 }

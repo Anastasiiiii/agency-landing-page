@@ -1,0 +1,10 @@
+.images-in-line {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 200px;
+}
+
