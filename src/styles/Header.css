@@ -11,14 +11,13 @@
 
 .header-main-text {
     left: 50%;
-    font-family: "Fraunces", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
+    font-family: "Ultra", serif;
+    font-weight: 100;
     font-style: normal;
-    font-size: 25px;
+    font-size: 40px;
     color: hsl(0, 0%, 100%);
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;

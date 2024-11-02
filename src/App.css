@@ -1,3 +1,5 @@
-.right-image {
-  margin-left: 50%;
+.down-two-images{
+  display: flex;
+  align-items: center;
+  gap: 0;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Menu.css";
+import "../styles/Formulas.css";
 
 const Menu = () => {
     return (

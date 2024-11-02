@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     gap: 72%;
-    color: hsl(0, 0%, 100%);
+    color: var(--white);
 }
 
 .menu-line ul {
@@ -28,8 +28,8 @@
     font-family: "Barlow", serif;
     font-weight: 900;
     font-style: normal;
-    color: hsl(212, 27%, 19%);
-    background: hsl(0, 0%, 100%);
+    color: var(--very-dark-desaturated-blue);
+    background: var(--white);
     padding: 10px 15px;
     border-radius: 30px;
 }

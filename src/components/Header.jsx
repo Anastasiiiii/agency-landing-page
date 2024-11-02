@@ -15,7 +15,7 @@ const Header = () => {
         <div className="header-container">
             <Menu />
             <div className="header-main-text">
-                <h1>We are creatives</h1>
+                <p>We are creatives</p>
                 <span id="arrow-down-icon">{arrowDownIcon}</span>
             </div>
         </div>

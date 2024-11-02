@@ -3,8 +3,36 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 50%;
-    padding-top: 50%; /* Задає висоту, яка дорівнює ширині */
+    padding-top: 40%;
+    /* Задає висоту, яка дорівнює ширині */
     position: relative;
     margin-left: 0;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container h1 {
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: -250px;
+}
+
+.text-container p {
+    list-style-type: none;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+    text-align: center;
+    width: 300px;
+    line-height: 2;
+}
+
+.right-image {
+    margin-left: 50%;
 }
