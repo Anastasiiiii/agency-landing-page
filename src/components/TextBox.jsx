@@ -7,6 +7,7 @@ const TextBox = ({ title, passage }) => {
             <h1>{title}</h1>
             <p id="passage">{passage}</p>
             <p id="learn-more-button">Learn more</p>
+            <label id="underline"></label>
         </div>
     )
 }
