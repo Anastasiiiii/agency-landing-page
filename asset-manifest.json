@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Agency-landing-page/static/css/main.1c80946a.css",
+    "main.css": "/Agency-landing-page/static/css/main.3d0158c4.css",
     "main.js": "/Agency-landing-page/static/js/main.4adbd0e2.js",
     "static/js/453.a6264939.chunk.js": "/Agency-landing-page/static/js/453.a6264939.chunk.js",
     "static/media/image-photography.jpg": "/Agency-landing-page/static/media/image-photography.3edae12655c6c501f6d8.jpg",
@@ -14,12 +14,12 @@
     "static/media/image-gallery-cone.jpg": "/Agency-landing-page/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
     "static/media/image-gallery-sugar-cubes.jpg": "/Agency-landing-page/static/media/image-gallery-sugar-cubes.fefc3841f885fca27c53.jpg",
     "index.html": "/Agency-landing-page/index.html",
-    "main.1c80946a.css.map": "/Agency-landing-page/static/css/main.1c80946a.css.map",
+    "main.3d0158c4.css.map": "/Agency-landing-page/static/css/main.3d0158c4.css.map",
     "main.4adbd0e2.js.map": "/Agency-landing-page/static/js/main.4adbd0e2.js.map",
     "453.a6264939.chunk.js.map": "/Agency-landing-page/static/js/453.a6264939.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c80946a.css",
+    "static/css/main.3d0158c4.css",
     "static/js/main.4adbd0e2.js"
   ]
 }
