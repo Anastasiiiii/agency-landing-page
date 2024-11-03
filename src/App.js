@@ -68,9 +68,9 @@ function App() {
         <Image bgImage={bgImage3Big} header={header1} text={passage1} textColor={textColor1} />
         <Image bgImage={bgImage4Big} header={header2} text={passage2} textColor={textColor2} />
       </span>
-      {/* <ClientCase />
-      <ImgLine />
-      <Footer /> */}
+      <ClientCase />
+      <ImgLine isMobile={isMobile} />
+      <Footer />
     </div>
   );
 }

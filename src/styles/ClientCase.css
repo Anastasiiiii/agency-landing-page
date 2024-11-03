@@ -23,3 +23,11 @@
     align-items: center;
     gap: 20px;
 }
+
+@media (max-width: 500px) {
+    .all-client-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}
