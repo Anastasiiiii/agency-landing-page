@@ -15,7 +15,6 @@ import bgImage3Big from "./images/desktop/image-graphic-design.jpg";
 import bgImage4Big from "./images/desktop/image-photography.jpg";
 
 function App() {
-  //const bgImage = "./images/desktop/image-transform.jpg";
   const [isMobile, setIsMobile] = useState(typeof window !== "undefined" && window.innerWidth < 500);
 
   useEffect(() => {
@@ -37,28 +36,30 @@ function App() {
   const passage2 = "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.";
 
   const header3 = "Transform your brand";
-  const passage3 = "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you."
+  const passage3 = "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.";
 
   const header4 = "Stand out to the right audience";
-  const passage4 = "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we will build and extend your brand in digital places."
+  const passage4 = "Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we will build and extend your brand in digital places.";
 
   const textColor1 = "var(--dark-desaturated-cyan)";
   const textColor2 = "var(--dark-blue)";
 
   return (
     <div className="App">
-      <Header />
-      {isMobile ? (
-        <span className='first-two-images'>
-          <Image className="right-image" bgImage={bgImageSmall} />
-          <TextBox title={header3} passage={passage3} />
-        </span>
-      ) : (
-        <span className='first-two-images'>
-          <TextBox title={header3} passage={passage3} />
-          <Image className="right-image" bgImage={bgImageBig} />
-        </span>
-      )}
+      <Header isMobile={isMobile} />
+      <span className='first-two-images' id='next-section'> 
+        {isMobile ? (
+          <>
+            <Image className="right-image" bgImage={bgImageSmall} />
+            <TextBox title={header3} passage={passage3} />
+          </>
+        ) : (
+          <>
+            <TextBox title={header3} passage={passage3} />
+            <Image className="right-image" bgImage={bgImageBig} />
+          </>
+        )}
+      </span>
 
       <span className='second-two-images'>
         <Image bgImage={isMobile ? bgImage2Small : bgImage2Big} />
