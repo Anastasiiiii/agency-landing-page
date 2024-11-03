@@ -1,5 +1,4 @@
 .header-container {
-    background-image: url("../images/desktop/image-header.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,4 +26,14 @@
 
 #arrow-down-icon {
     margin-top: 50px;
+}
+
+@media(max-width: 500px){
+    .header-container {
+        height: 65vh;
+    }
+    .header-main-text {
+        margin-left: 4%;
+        text-align: center;
+    }
 }
