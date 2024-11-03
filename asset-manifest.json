@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Agency-landing-page/static/css/main.1c80946a.css",
+    "main.js": "/Agency-landing-page/static/js/main.4adbd0e2.js",
+    "static/js/453.a6264939.chunk.js": "/Agency-landing-page/static/js/453.a6264939.chunk.js",
+    "static/media/image-photography.jpg": "/Agency-landing-page/static/media/image-photography.3edae12655c6c501f6d8.jpg",
+    "static/media/image-graphic-design.jpg": "/Agency-landing-page/static/media/image-graphic-design.af0224eab99e3362464d.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/Agency-landing-page/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-header.jpg": "/Agency-landing-page/static/media/image-header.9167cda0c72b56b2cda5.jpg",
+    "static/media/image-stand-out.jpg": "/Agency-landing-page/static/media/image-stand-out.73b5dec4abb331058409.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/Agency-landing-page/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/Agency-landing-page/static/media/image-gallery-orange.373d43f1f42a447ed9a6.jpg",
+    "static/media/image-transform.jpg": "/Agency-landing-page/static/media/image-transform.6066f2d12b3be372b9d9.jpg",
+    "static/media/image-gallery-cone.jpg": "/Agency-landing-page/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-gallery-sugar-cubes.jpg": "/Agency-landing-page/static/media/image-gallery-sugar-cubes.fefc3841f885fca27c53.jpg",
+    "index.html": "/Agency-landing-page/index.html",
+    "main.1c80946a.css.map": "/Agency-landing-page/static/css/main.1c80946a.css.map",
+    "main.4adbd0e2.js.map": "/Agency-landing-page/static/js/main.4adbd0e2.js.map",
+    "453.a6264939.chunk.js.map": "/Agency-landing-page/static/js/453.a6264939.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c80946a.css",
+    "static/js/main.4adbd0e2.js"
+  ]
+}
