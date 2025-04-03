@@ -20,20 +20,20 @@ This is a responsive **landing page** built with **React** based on a challenge 
 
 ## 🚀 How to Run Locally
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/anastasiiiii/dessert-shop-landing-challenge.git
    cd dessert-shop-landing-challenge
 
-2. Install dependencies:
+2. **Install dependencies:**
    ```bash
     npm install
 
-3. Start the development server:
+3. **Start the development server:**
    ```bash
    npm start
    
-5. Open in your browser: http://localhost:3000
+5. **Open in your browser:** http://localhost:3000
 
 ## 🙌 Acknowledgements
 Design by Frontend Mentor
